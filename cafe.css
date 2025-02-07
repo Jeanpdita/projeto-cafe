@@ -186,21 +186,21 @@ body {
 
 /* corpo textos */
 
-/* titulo  */
+/* Promoções do dia titulo  */
 
 .titulo-marketing {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #007bff;
+    color: #0026ff;           /* cor titulo  */
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
     letter-spacing: 2px;
-    border-bottom: 3px solid #007bff;
+    border-bottom: 3px solid #0040ff;   /* margem do titulo  */
     padding-bottom: 10px;
 }
-
+ 
 
 
 .featurette-heading {
@@ -227,6 +227,30 @@ body {
     margin: 3rem 0;
     border-top: 2px solid #ddd;
 }
+
+/* Bootoes das promoções do dia */
+
+.btn-secondary {
+  background-color: #000000; /* Cor de fundo */
+  color: #ffffff; /* or do texto */
+  border: none; /* borda */
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62; /* Cor passar o mouse */
+  color: #ffffff;
+}
+
+.btn-secondary:active {
+  background-color: #3d4247; /* Cor clicar */
+  transform: scale(0.98); /* efeito de clique */
+}
+
+
 
 /* Ajuste de espaçamento para alinhar o texto com as imagens */
 .featurette .col-md-7 {
