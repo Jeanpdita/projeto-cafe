@@ -33,7 +33,7 @@ body {
 
 /* Estilo geral para a navbar */
 .navbar {
-    background-color: #1C1C1A; /* Cor de fundo da navbar */
+    background-color: #301800; /* Cor de fundo da navbar */
     padding: 15px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para dar um efeito elevado */
   }
@@ -41,12 +41,12 @@ body {
   /* Estilo da marca da navbar */
   .navbar-brand {
     font-size: 1.8rem; /* Tamanho da fonte da marca */
-    color: #ffffff !important; /* Cor da marca */
+    color: #264C01 !important; /* Cor da marca */
     font-weight: 700;
   }
   
   .navbar-brand:hover {
-    color: #11ff00 !important; /* Cor da marca ao passar o mouse */
+    color: #7C8C03 !important; /* Cor da marca ao passar o mouse */
   }
   
   /* Estilo dos links de navegação */
@@ -59,7 +59,7 @@ body {
   }
   
   .nav-link:hover {
-    color: #007bff !important; /* Cor dos links ao passar o mouse */
+    color: #542A01 !important; /* Cor dos links ao passar o mouse */
     background-color: rgba(0, 0, 0, 0.1); /* Fundo leve ao passar o mouse */
     border-radius: 5px; /* Borda arredondada nos links ao passar o mouse */
   }
