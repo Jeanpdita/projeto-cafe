@@ -1,13 +1,3 @@
-/* cores que eu acho dahora pro site 
-
-#687314
-#A6431F
-#73392C
-#BFBEBD
-#262626
-#1C1C1A
-*/
-
 /* css do corpo da pag */
 
 body {
@@ -22,7 +12,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #AFB598;
+    color: #E7FFCF;
     background-color: #264C01;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -33,11 +23,9 @@ body {
 
 /* Estilo geral para a navbar */
 .navbar {
-    background-color: #301800; /* Cor de fundo da navbar */
-    padding: 15px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para dar um efeito elevado */
-  }
-  
+  background-color: #ff5e00 !important;
+}
+
   /* Estilo da marca da navbar */
   .navbar-brand {
     font-size: 1.8rem; /* Tamanho da fonte da marca */
@@ -118,7 +106,7 @@ body {
   }
   
   .carousel-indicators button.active {
-    background-color: #007bff;
+    background-color: #7C8C03;
     opacity: 1;
   }
   
@@ -155,7 +143,7 @@ body {
   /* Estilo para os botões do carrossel */
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    background-color: #007bff;
+    background-color: #7C8C03;
     border-radius: 50%;
     padding: 10px;
   }
@@ -188,12 +176,12 @@ body {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #0026ff;           /* cor titulo  */
+    color: #301800;           /* cor titulo  */
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
     letter-spacing: 2px;
-    border-bottom: 3px solid #0040ff;   /* margem do titulo  */
+    border-bottom: 3px solid #AFB598;   /* margem do titulo  */
     padding-bottom: 10px;
 }
  
@@ -202,20 +190,20 @@ body {
 .featurette-heading {
     font-size: 2rem;
     font-weight: bold;
-    color: #e20000;
+    color: #301800;
     padding-left: 50px;
 }
 
 .featurette-heading span {
     font-size: 1.5rem;
     font-weight: normal;
-    color: #37ff00; /* Cor cinza para o texto secundário */
+    color: #AFB598; /* Cor cinza para o texto secundário */
     
 }
 
 .featurette p.lead {
     font-size: 1.2rem;
-    color: #0c070b;
+    color: #AFB598;
     padding-left: 50px;
 }
 
@@ -227,8 +215,8 @@ body {
 /* Bootoes das promoções do dia */
 
 .btn-secondary {
-  background-color: #000000; /* Cor de fundo */
-  color: #ffffff; /* or do texto */
+  background-color: #301800; /* Cor de fundo */
+  color: #AFB598; /* or do texto */
   border: none; /* borda */
   padding: 10px 20px;
   font-size: 16px;
@@ -237,12 +225,12 @@ body {
 }
 
 .btn-secondary:hover {
-  background-color: #545b62; /* Cor passar o mouse */
-  color: #ffffff;
+  background-color: #753501; /* Cor passar o mouse */
+  color: #AFB598;
 }
 
 .btn-secondary:active {
-  background-color: #3d4247; /* Cor clicar */
+  background-color: #753501; /* Cor clicar */
   transform: scale(0.98); /* efeito de clique */
 }
 
@@ -274,7 +262,7 @@ body {
 
   .localizacao {
     padding: 50px 0;
-    background-color: #f8f9fa;
+    background-color: #264C01;
     text-align: center;
 }
 
@@ -301,8 +289,8 @@ body {
 
 
 .footer {
-  background-color: #222;   /* cor principal do footer */
-  color: white;   /* cor da fonte */
+  background-color: #301800;   /* cor principal do footer */
+  color: #AFB598;   /* cor da fonte */
   padding: 20px 0; /* espaçamento fonte  */
   margin-top: 40px; /*  espaçamento top */
 }
@@ -336,7 +324,7 @@ body {
 }
 
 .footer a {
-  color: #ffffff;  
+  color: #AFB598;  
   text-decoration: none;  /* seção de termos */
 }
 
