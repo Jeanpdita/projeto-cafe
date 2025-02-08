@@ -8,11 +8,12 @@
 #1C1C1A
 */
 
+/* css do corpo da pag */
 
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    color: #f2ff00;
+    color: #ffffff;
 }
 
 body {
@@ -45,7 +46,7 @@ body {
   }
   
   .navbar-brand:hover {
-    color: #ff0000 !important; /* Cor da marca ao passar o mouse */
+    color: #11ff00 !important; /* Cor da marca ao passar o mouse */
   }
   
   /* Estilo dos links de navegação */
@@ -70,12 +71,7 @@ body {
     font-weight: bold; /* Deixa o link ativo mais em destaque */
   }
   
-  /* Estilo para o link desabilitado */
-  .nav-link.disabled {
-    color: #6c757d !important; /* Cor para o link desabilitado */
-    pointer-events: none; /* Desabilita a interação com o link */
-  }
-  
+ 
   /* Estilo do botão da navbar-toggler */
   .navbar-toggler {
     border-color: #007bff;
@@ -250,7 +246,7 @@ body {
   transform: scale(0.98); /* efeito de clique */
 }
 
-
+/* os cards */
 
 /* Ajuste de espaçamento para alinhar o texto com as imagens */
 .featurette .col-md-7 {
@@ -274,7 +270,7 @@ body {
     }
 }
 
-  /* mapinha do gugou */
+  /* mapinha do gugou obs nem olhe */
 
   .localizacao {
     padding: 50px 0;
