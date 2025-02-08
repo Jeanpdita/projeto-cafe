@@ -176,12 +176,12 @@ body {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #B9E68C;           /* cor titulo  */
+    color: #e2e2e2;           /* cor titulo  */
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
     letter-spacing: 2px;
-    border-bottom: 3px solid #B9E68C;   /* margem do titulo  */
+    border-bottom: 3px solid #ffffff;   /* margem do titulo  */
     padding-bottom: 10px;
 }
  
@@ -190,20 +190,20 @@ body {
 .featurette-heading {
     font-size: 2rem;
     font-weight: bold;
-    color: #B9E68C;
+    color: #ffffff;
     padding-left: 50px;
 }
 
 .featurette-heading span {
     font-size: 1.5rem;
     font-weight: normal;
-    color: #E7FFCF; /* Cor cinza para o texto secundário */
+    color: #f9f9f9; /* Cor cinza para o texto secundário */
     
 }
 
 .featurette p.lead {
     font-size: 1.2rem;
-    color: #E7FFCF;
+    color: #fbfbfb;
     padding-left: 50px;
 }
 
@@ -270,12 +270,12 @@ body {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #B9E68C;
+    color: #ffffff;
 }
 
 .descricao-localizacao {
     font-size: 1.2rem;
-    color: #E7FFCF;
+    color: #ffffff;
     text-align: left;
     padding: 20px;
 }
