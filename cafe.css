@@ -28,12 +28,12 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para dar um efeito elevado */
   }
   
- Stashed changes
+ >Stashed changes
   /* Estilo da marca da navbar */
   .navbar-brand {
     font-size: 1.8rem; /* Tamanho da fonte da marca */
     color: #B9E68C !important; /* Cor da marca */
-    font-weight: 700;
+    font-weight: 800;
   }
   
   .navbar-brand:hover {
