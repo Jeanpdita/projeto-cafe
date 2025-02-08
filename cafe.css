@@ -118,7 +118,7 @@ body {
   }
   
   .carousel-indicators button.active {
-    background-color: #007bff;
+    background-color: #7C8C03;
     opacity: 1;
   }
   
@@ -155,7 +155,7 @@ body {
   /* Estilo para os botões do carrossel */
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    background-color: #007bff;
+    background-color: #7C8C03;
     border-radius: 50%;
     padding: 10px;
   }
@@ -188,12 +188,12 @@ body {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #0026ff;           /* cor titulo  */
+    color: #301800;           /* cor titulo  */
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
     letter-spacing: 2px;
-    border-bottom: 3px solid #0040ff;   /* margem do titulo  */
+    border-bottom: 3px solid #AFB598;   /* margem do titulo  */
     padding-bottom: 10px;
 }
  
@@ -202,20 +202,20 @@ body {
 .featurette-heading {
     font-size: 2rem;
     font-weight: bold;
-    color: #e20000;
+    color: #301800;
     padding-left: 50px;
 }
 
 .featurette-heading span {
     font-size: 1.5rem;
     font-weight: normal;
-    color: #37ff00; /* Cor cinza para o texto secundário */
+    color: #AFB598; /* Cor cinza para o texto secundário */
     
 }
 
 .featurette p.lead {
     font-size: 1.2rem;
-    color: #0c070b;
+    color: #AFB598;
     padding-left: 50px;
 }
 
@@ -227,8 +227,8 @@ body {
 /* Bootoes das promoções do dia */
 
 .btn-secondary {
-  background-color: #000000; /* Cor de fundo */
-  color: #ffffff; /* or do texto */
+  background-color: #301800; /* Cor de fundo */
+  color: #AFB598; /* or do texto */
   border: none; /* borda */
   padding: 10px 20px;
   font-size: 16px;
@@ -237,12 +237,12 @@ body {
 }
 
 .btn-secondary:hover {
-  background-color: #545b62; /* Cor passar o mouse */
-  color: #ffffff;
+  background-color: #753501; /* Cor passar o mouse */
+  color: #AFB598;
 }
 
 .btn-secondary:active {
-  background-color: #3d4247; /* Cor clicar */
+  background-color: #753501; /* Cor clicar */
   transform: scale(0.98); /* efeito de clique */
 }
 
@@ -301,8 +301,8 @@ body {
 
 
 .footer {
-  background-color: #222;   /* cor principal do footer */
-  color: white;   /* cor da fonte */
+  background-color: #301800;   /* cor principal do footer */
+  color: #AFB598;   /* cor da fonte */
   padding: 20px 0; /* espaçamento fonte  */
   margin-top: 40px; /*  espaçamento top */
 }
