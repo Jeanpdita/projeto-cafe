@@ -23,9 +23,12 @@ body {
 
 /* Estilo geral para a navbar */
 .navbar {
-  background-color: #4D801B !important;
-}
-
+    background-color: #4D801B; /* Cor de fundo da navbar */
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para dar um efeito elevado */
+  }
+  
+ Stashed changes
   /* Estilo da marca da navbar */
   .navbar-brand {
     font-size: 1.8rem; /* Tamanho da fonte da marca */
@@ -47,14 +50,14 @@ body {
   }
   
   .nav-link:hover {
-    color: #B9E68C !important; /* Cor dos links ao passar o mouse */
+    color: #e6f5d8 !important; /* Cor dos links ao passar o mouse */
     background-color: rgba(0, 0, 0, 0.1); /* Fundo leve ao passar o mouse */
     border-radius: 5px; /* Borda arredondada nos links ao passar o mouse */
   }
   
   /* Estilo para o link ativo */
   .nav-link.active {
-    color: #7EB349 !important; /* Cor do link ativo */
+    color: #B9E68C !important; /* Cor do link ativo */
     background-color: transparent; /* Retira o fundo de hover quando ativo */
     font-weight: bold; /* Deixa o link ativo mais em destaque */
   }
