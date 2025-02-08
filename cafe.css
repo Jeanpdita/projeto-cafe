@@ -23,11 +23,9 @@ body {
 
 /* Estilo geral para a navbar */
 .navbar {
-    background-color: #301800; /* Cor de fundo da navbar */
-    padding: 15px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para dar um efeito elevado */
-  }
-  
+  background-color: #5a3825;
+}
+
   /* Estilo da marca da navbar */
   .navbar-brand {
     font-size: 1.8rem; /* Tamanho da fonte da marca */
