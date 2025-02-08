@@ -50,7 +50,7 @@ body {
   }
   
   .nav-link:hover {
-    color: #e6f5d8 !important; /* Cor dos links ao passar o mouse */
+    color: #B9E68C !important; /* Cor dos links ao passar o mouse */
     background-color: rgba(0, 0, 0, 0.1); /* Fundo leve ao passar o mouse */
     border-radius: 5px; /* Borda arredondada nos links ao passar o mouse */
   }
