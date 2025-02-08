@@ -23,13 +23,13 @@ body {
 
 /* Estilo geral para a navbar */
 .navbar {
-  background-color: #4D801B !important;
+  background-color: #ff5e00 !important;
 }
 
   /* Estilo da marca da navbar */
   .navbar-brand {
     font-size: 1.8rem; /* Tamanho da fonte da marca */
-    color: #264C01 !important; /* Cor da marca */
+    color: #B9E68C !important; /* Cor da marca */
     font-weight: 700;
   }
   
@@ -39,7 +39,7 @@ body {
   
   /* Estilo dos links de navegação */
   .nav-link {
-    color: #AFB598 !important; /* Cor dos links */
+    color: #E7FFCF !important; /* Cor dos links */
     font-size: 1.1rem; /* Tamanho da fonte dos links */
     padding: 10px 15px; /* Espaçamento dentro dos links */
     text-transform: uppercase; /* Transforma o texto para maiúsculas */
@@ -47,7 +47,7 @@ body {
   }
   
   .nav-link:hover {
-    color: #264C01 !important; /* Cor dos links ao passar o mouse */
+    color: #B9E68C !important; /* Cor dos links ao passar o mouse */
     background-color: rgba(0, 0, 0, 0.1); /* Fundo leve ao passar o mouse */
     border-radius: 5px; /* Borda arredondada nos links ao passar o mouse */
   }
@@ -62,11 +62,11 @@ body {
  
   /* Estilo do botão da navbar-toggler */
   .navbar-toggler {
-    border-color: #007bff;
+    border-color: #4D801B;
   }
   
   .navbar-toggler-icon {
-    background-color: #007bff; /* Cor do ícone da navbar-toggler */
+    background-color: #4D801B; /* Cor do ícone da navbar-toggler */
   }
   
   /* Estilo da barra de navegação quando ela é expandida */
@@ -106,7 +106,7 @@ body {
   }
   
   .carousel-indicators button.active {
-    background-color: #7C8C03;
+    background-color: #264C01;
     opacity: 1;
   }
   
@@ -124,7 +124,7 @@ body {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-    color: white;
+    color: #E7FFCF;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
     text-align: center;
   }
@@ -143,7 +143,7 @@ body {
   /* Estilo para os botões do carrossel */
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    background-color: #7C8C03;
+    background-color: #264C01;
     border-radius: 50%;
     padding: 10px;
   }
@@ -176,12 +176,12 @@ body {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #301800;           /* cor titulo  */
+    color: #B9E68C;           /* cor titulo  */
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
     letter-spacing: 2px;
-    border-bottom: 3px solid #AFB598;   /* margem do titulo  */
+    border-bottom: 3px solid #B9E68C;   /* margem do titulo  */
     padding-bottom: 10px;
 }
  
@@ -190,33 +190,33 @@ body {
 .featurette-heading {
     font-size: 2rem;
     font-weight: bold;
-    color: #301800;
+    color: #B9E68C;
     padding-left: 50px;
 }
 
 .featurette-heading span {
     font-size: 1.5rem;
     font-weight: normal;
-    color: #AFB598; /* Cor cinza para o texto secundário */
+    color: #E7FFCF; /* Cor cinza para o texto secundário */
     
 }
 
 .featurette p.lead {
     font-size: 1.2rem;
-    color: #AFB598;
+    color: #E7FFCF;
     padding-left: 50px;
 }
 
 .featurette-divider {
     margin: 3rem 0;
-    border-top: 2px solid #ddd;
+    border-top: 2px solid #4D801B;
 }
 
 /* Bootoes das promoções do dia */
 
 .btn-secondary {
-  background-color: #301800; /* Cor de fundo */
-  color: #AFB598; /* or do texto */
+  background-color: #4D801B; /* Cor de fundo */
+  color: #E7FFCF; /* or do texto */
   border: none; /* borda */
   padding: 10px 20px;
   font-size: 16px;
@@ -225,12 +225,12 @@ body {
 }
 
 .btn-secondary:hover {
-  background-color: #753501; /* Cor passar o mouse */
-  color: #AFB598;
+  background-color: #7EB349; /* Cor passar o mouse */
+  color: #E7FFCF;
 }
 
 .btn-secondary:active {
-  background-color: #753501; /* Cor clicar */
+  background-color: #7EB349; /* Cor clicar */
   transform: scale(0.98); /* efeito de clique */
 }
 
@@ -270,12 +270,12 @@ body {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #333;
+    color: #B9E68C;
 }
 
 .descricao-localizacao {
     font-size: 1.2rem;
-    color: #555;
+    color: #E7FFCF;
     text-align: left;
     padding: 20px;
 }
@@ -289,8 +289,8 @@ body {
 
 
 .footer {
-  background-color: #301800;   /* cor principal do footer */
-  color: #AFB598;   /* cor da fonte */
+  background-color: #4D801B;   /* cor principal do footer */
+  color: #E7FFCF;   /* cor da fonte */
   padding: 20px 0; /* espaçamento fonte  */
   margin-top: 40px; /*  espaçamento top */
 }
@@ -324,7 +324,7 @@ body {
 }
 
 .footer a {
-  color: #AFB598;  
+  color: #E7FFCF;  
   text-decoration: none;  /* seção de termos */
 }
 
