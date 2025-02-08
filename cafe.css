@@ -51,7 +51,7 @@ body {
   
   /* Estilo dos links de navegação */
   .nav-link {
-    color: #ffffff !important; /* Cor dos links */
+    color: #AFB598 !important; /* Cor dos links */
     font-size: 1.1rem; /* Tamanho da fonte dos links */
     padding: 10px 15px; /* Espaçamento dentro dos links */
     text-transform: uppercase; /* Transforma o texto para maiúsculas */
@@ -59,14 +59,14 @@ body {
   }
   
   .nav-link:hover {
-    color: #542A01 !important; /* Cor dos links ao passar o mouse */
+    color: #264C01 !important; /* Cor dos links ao passar o mouse */
     background-color: rgba(0, 0, 0, 0.1); /* Fundo leve ao passar o mouse */
     border-radius: 5px; /* Borda arredondada nos links ao passar o mouse */
   }
   
   /* Estilo para o link ativo */
   .nav-link.active {
-    color: #007bff !important; /* Cor do link ativo */
+    color: #7C8C03 !important; /* Cor do link ativo */
     background-color: transparent; /* Retira o fundo de hover quando ativo */
     font-weight: bold; /* Deixa o link ativo mais em destaque */
   }
