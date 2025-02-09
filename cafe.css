@@ -28,7 +28,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para dar um efeito elevado */
   }
   
- >Stashed changes
+Stashed changes
   /* Estilo da marca da navbar */
   .navbar-brand {
     font-size: 1.8rem; /* Tamanho da fonte da marca */
@@ -179,12 +179,12 @@ body {
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #e2e2e2;           /* cor titulo  */
+    color: #B9E68C;           /* cor titulo  */
     text-transform: uppercase;
     margin-bottom: 30px;
     font-family: 'Arial', sans-serif;
     letter-spacing: 2px;
-    border-bottom: 3px solid #ffffff;   /* margem do titulo  */
+    border-bottom: 3px solid #B9E68C;   /* margem do titulo  */
     padding-bottom: 10px;
 }
  
@@ -193,32 +193,32 @@ body {
 .featurette-heading {
     font-size: 2rem;
     font-weight: bold;
-    color: #ffffff;
+    color: #E7FFCF;
     padding-left: 50px;
 }
 
 .featurette-heading span {
     font-size: 1.5rem;
     font-weight: normal;
-    color: #f9f9f9; /* Cor cinza para o texto secundário */
+    color: #E7FFCF; /* Cor cinza para o texto secundário */
     
 }
 
 .featurette p.lead {
     font-size: 1.2rem;
-    color: #fbfbfb;
+    color: #E7FFCF;
     padding-left: 50px;
 }
 
 .featurette-divider {
     margin: 3rem 0;
-    border-top: 2px solid #4D801B;
+    border-top: 2px solid #558C1D;
 }
 
 /* Bootoes das promoções do dia */
 
 .btn-secondary {
-  background-color: #4D801B; /* Cor de fundo */
+  background-color: #558C1D; /* Cor de fundo */
   color: #E7FFCF; /* or do texto */
   border: none; /* borda */
   padding: 10px 20px;
@@ -273,12 +273,12 @@ body {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #ffffff;
+    color: #B9E68C;
 }
 
 .descricao-localizacao {
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #E7FFCF;
     text-align: left;
     padding: 20px;
 }
@@ -292,7 +292,7 @@ body {
 
 
 .footer {
-  background-color: #4D801B;   /* cor principal do footer */
+  background-color: #558C1D;   /* cor principal do footer */
   color: #E7FFCF;   /* cor da fonte */
   padding: 20px 0; /* espaçamento fonte  */
   margin-top: 40px; /*  espaçamento top */
