@@ -1,13 +1,14 @@
 /* css do corpo da pag */
 
 body {
-    padding-top: 3rem;
+    margin: 0px;
     padding-bottom: 3rem;
     color: #264C01;
 }
 
 body {
-    margin: 0;
+    margin: 0px;
+    padding-left: 0px;
     font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
     font-weight: 400;
@@ -22,13 +23,16 @@ body {
 
 
 /* Estilo geral para a navbar */
+
+/* cor da navbar */
 .navbar {
-    background-color: #4D801B; /* Cor de fundo da navbar */
-    padding: 15px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para dar um efeito elevado */
-  }
-  
-Stashed changes
+          background-color: #4D801B !important;  
+
+
+}
+
+
+
   /* Estilo da marca da navbar */
   .navbar-brand {
     font-size: 1.8rem; /* Tamanho da fonte da marca */
@@ -98,7 +102,7 @@ Stashed changes
 #myCarousel {
     position: relative;
     width: 100%;
-    height: 600px; /* Ajuste a altura conforme necessário */
+    max-height: 600px; /* Ajuste a altura conforme necessário */
     overflow: hidden;
   }
   
@@ -194,7 +198,7 @@ Stashed changes
     font-size: 2rem;
     font-weight: bold;
     color: #E7FFCF;
-    padding-left: 50px;
+   
 }
 
 .featurette-heading span {
@@ -213,6 +217,7 @@ Stashed changes
 .featurette-divider {
     margin: 3rem 0;
     border-top: 2px solid #558C1D;
+  
 }
 
 /* Bootoes das promoções do dia */
@@ -227,6 +232,7 @@ Stashed changes
   transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
+
 .btn-secondary:hover {
   background-color: #7EB349; /* Cor passar o mouse */
   color: #E7FFCF;
@@ -240,16 +246,18 @@ Stashed changes
 /* os cards */
 
 /* Ajuste de espaçamento para alinhar o texto com as imagens */
-.featurette .col-md-7 {
+.featurette .col-md-8 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
     .featurette-heading {
         font-size: 1.8rem;
+        
     }
 
     .featurette-heading span {
@@ -343,3 +351,25 @@ Stashed changes
 .footer .social-icon img:hover {
   transform: scale(1.1);
 }
+
+
+/* css improvisado teste */
+
+
+.featurette-heading {
+
+  padding-left: 150px;
+
+}
+
+.lead{
+
+  padding-right: 50px;
+  
+}
+
+.bd-placeholder-img-lg{
+
+  padding-left: 100px;
+}
+
